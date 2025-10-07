@@ -1,4 +1,4 @@
-# Results Summary: Snaphomz Trial
+# Results Summary - Snaphomz Trial
 
 ### Executive Summary
 This project successfully analyzed property listings, built a predictive price model, and developed an AI-powered Q&A feature. 

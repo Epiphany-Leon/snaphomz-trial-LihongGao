@@ -12,18 +12,18 @@ This project serves as a technical trial assignment for **the Data Science & AI/
 ## 2. Setup & Usage
 
 * **Python Version**: 3.12+
-* **Key Libraries**: Pandas, Scikit-learn, Sentence-Transformers
+* **Key Libraries**: Numpy, Pandas, Scikit-learn, Sentence-Transformers
 * **Environment Setup**:
     ```bash
     # Clone the repository
-    git clone [Your Repository URL]
+    git clone Epiphany-Leon/snaphomz-trial-LihongGao
     cd snaphomz-trial-LihongGao
 
     # Create and activate a virtual environment
     conda create --name snaphomz-trial python=3.12 -y
     conda activate snaphomz-trial
 
-    # Install dependencies
+    # Install dependencies (whether uv or pip is okay)
     uv pip install -r requirements.txt
     ```
 * **How to Run**:
@@ -34,13 +34,13 @@ This project serves as a technical trial assignment for **the Data Science & AI/
     Once open, run all cells from top to bottom to reproduce the analysis.
 
 
-## 3. Decisions & Rationale
+## 3. Decisions
 
-* **Predictive Model**: A `LinearRegression` model was chosen to predict `price_per_sqft`. This aligns with the "quick baseline" requirement, offering high interpretability and efficiency.
-* **LLM Feature**: A Retrieval-Augmented Generation (RAG) approach was used for the Q&A feature. This robustly grounds answers in the provided data, demonstrating an ability to build a search system that avoids factual invention (hallucination).
+* **Predictive Model**: A `LinearRegression` model was chosen to predict `price_per_sqft`.
+* **LLM Feature**: A Retrieval-Augmented Generation (RAG) approach was used for the Q&A feature.
 * **Assumptions & Trade-offs**:
     * **Assumption**: The provided `listings_sample.csv` is representative of the broader market for the purpose of this trial.
-    * **Trade-off**: Chose a simple, interpretable baseline model over a more complex, high-performance model to adhere to the "quick baseline" spirit of the assignment.
+    * **Trade-off**: Chose a simple, interpretable baseline model over a more complex, high-performance model to adhere to the "quick baseline" for the trial.
 
 
 ## 4. Known Limitations
@@ -50,4 +50,4 @@ This project serves as a technical trial assignment for **the Data Science & AI/
 
 
 ## 5. Time Spent
-* **Approximate Hours**: 5-6 hours
+* **Approximate Hours**: 5-6 hours for all tasks.
